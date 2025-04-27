@@ -1,0 +1,121 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F7FAFC; /* Light gray background */
+  color: #2D3748; /* Dark gray text */
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #EDF2F7; /* Light gray background */
+  color: #2D3748; /* Dark gray text */
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hero-text {
+  font-size: 1.125rem;
+  color: #718096; /* Medium gray */
+}
+
+.btn {
+  background-color: #3182CE; /* Blue button */
+  color: #FFF;
+  padding: 1rem 1.5rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2B6CB0; /* Darker blue on hover */
+}
+
+/* Pain Points Section */
+.pain-points {
+  background-color: #FFFFFF; /* White background */
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #EDF2F7;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  max-width: 60px;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #4A5568; /* Gray text */
+}
+
+/* Solution Section */
+.solution {
+  background-color: #EBF8FF; /* Light blue background */
+}
+
+.section-text {
+  color: #4A5568;
+  font-size: 1.125rem;
+}
+
+/* Waitlist Form Section */
+.waitlist {
+  background-color: #FFFFFF;
+}
+
+.form {
+  background-color: #F7FAFC; /* Light gray background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+  color: #2D3748;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.btn-submit {
+  background-color: #3182CE;
+  color: #FFF;
+  padding: 1rem 1.5rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer {
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #A0AEC0;
+}
