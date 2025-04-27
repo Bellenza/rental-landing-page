@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartRent — Rental Management Made Easy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-6">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+      Manage Your Rentals Without Stress
+    </h1>
+    <p class="text-lg md:text-xl text-gray-600 mb-8">
+      Track rent payments, send automatic reminders, and handle tenant issues — all from one simple app.
+    </p>
+    <a href="#waitlist" class="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-full text-lg transition">
+      Join the Waitlist
+    </a>
+  </section>
+
+  <!-- Pain Points Section -->
+  <section class="py-12 bg-white px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Tired of Managing Properties Manually?</h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <img src="https://img.icons8.com/ios-filled/100/000000/time-machine.png" class="mx-auto mb-4" alt="Late Payments">
+          <h3 class="font-semibold text-xl mb-2">Late Payments</h3>
+          <p class="text-gray-600">Chasing tenants every month is frustrating and time-consuming.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <img src="https://img.icons8.com/ios-filled/100/000000/maintenance.png" class="mx-auto mb-4" alt="Maintenance Issues">
+          <h3 class="font-semibold text-xl mb-2">Maintenance Issues</h3>
+          <p class="text-gray-600">Tracking tenant complaints through WhatsApp is messy and confusing.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <img src="https://img.icons8.com/ios-filled/100/000000/spreadsheet.png" class="mx-auto mb-4" alt="Messy Spreadsheets">
+          <h3 class="font-semibold text-xl mb-2">Messy Spreadsheets</h3>
+          <p class="text-gray-600">Managing properties with Excel? It's error-prone and outdated.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solution Section -->
+  <section class="py-12 bg-blue-50 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">SmartRent Solves It All</h2>
+      <p class="text-lg text-gray-700 mb-8">
+        Get automated reminders, instant rent receipts, and simple tenant management in one click.  
+        Perfect for landlords managing 1–10 properties.
+      </p>
+      <a href="#waitlist" class="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-full text-lg transition">
+        Join the Early Access
+      </a>
+    </div>
+  </section>
+
+  <!-- Waitlist Form -->
+  <section id="waitlist" class="py-12 bg-white px-6">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Join the Early Access Waitlist</h2>
+      <form class="bg-gray-100 p-8 rounded-lg shadow-md space-y-6" action="https://formspree.io/f/your-form-id" method="POST">
+        <div>
+          <label class="block mb-2 font-semibold">Full Name</label>
+          <input type="text" name="name" required class="w-full p-3 rounded border border-gray-300">
+        </div>
+
+        <div>
+          <label class="block mb-2 font-semibold">Email</label>
+          <input type="email" name="email" required class="w-full p-3 rounded border border-gray-300">
+        </div>
+
+        <div>
+          <label class="block mb-2 font-semibold">Phone (Optional)</label>
+          <input type="text" name="phone" class="w-full p-3 rounded border border-gray-300">
+        </div>
+
+        <div>
+          <label class="block mb-2 font-semibold">How many properties do you manage?</label>
+          <input type="text" name="properties" class="w-full p-3 rounded border border-gray-300">
+        </div>
+
+        <div>
+          <label class="block mb-2 font-semibold">Biggest problem you face while managing tenants?</label>
+          <textarea name="problem" rows="3" class="w-full p-3 rounded border border-gray-300"></textarea>
+        </div>
+
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white w-full py-3 rounded-full text-lg transition">
+          Join Waitlist
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 text-sm py-6">
+    © 2025 SmartRent. All rights reserved.
+  </footer>
+
+</body>
+</html>
