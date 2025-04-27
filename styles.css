@@ -1,125 +1,44 @@
-/* Import Inter font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
-/* General Body Styles */
+/* Basic styling for body */
 body {
-  font-family: 'Inter', sans-serif; /* Change font to Inter */
   background-color: #F7FAFC; /* Light gray background */
   color: #2D3748; /* Dark gray text */
-  line-height: 1.6;
+  font-family: 'Arial', sans-serif;
 }
-
 
 /* Hero Section */
-.hero {
-  background-color: #EDF2F7; /* Light gray background */
-  color: #2D3748; /* Dark gray text */
+#hero {
+  animation: fadeIn 1s ease-in;
 }
 
-.hero-title {
-  font-size: 2rem;
-  font-weight: bold;
+#hero-title {
+  animation: fadeIn 1s ease-in 1s; /* Add delay */
 }
 
-.hero-text {
-  font-size: 1.125rem;
-  color: #718096; /* Medium gray */
+#hero-text {
+  animation: fadeIn 1s ease-in 2s; /* Add delay */
 }
 
-.btn {
-  background-color: #3182CE; /* Blue button */
-  color: #FFF;
-  padding: 1rem 1.5rem;
-  border-radius: 9999px;
-  text-transform: uppercase;
-  font-size: 1rem;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
+#join-waitlist {
+  animation: zoomIn 1s ease-in 3s; /* Add delay */
 }
 
-.btn:hover {
-  background-color: #2B6CB0; /* Darker blue on hover */
+/* Keyframe animations for fadeIn and zoomIn */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-/* Pain Points Section */
-.pain-points {
-  background-color: #FFFFFF; /* White background */
-}
-
-.section-title {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.card {
-  background-color: #EDF2F7;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card-icon {
-  max-width: 60px;
-}
-
-.card-title {
-  font-size: 1.125rem;
-  font-weight: bold;
-}
-
-.card-text {
-  color: #4A5568; /* Gray text */
-}
-
-/* Solution Section */
-.solution {
-  background-color: #EBF8FF; /* Light blue background */
-}
-
-.section-text {
-  color: #4A5568;
-  font-size: 1.125rem;
-}
-
-/* Waitlist Form Section */
-.waitlist {
-  background-color: #FFFFFF;
-}
-
-.form {
-  background-color: #F7FAFC; /* Light gray background */
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.label {
-  font-weight: bold;
-  color: #2D3748;
-}
-
-.input {
-  width: 100%;
-  padding: 1rem;
-  border: 1px solid #E2E8F0;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-}
-
-.btn-submit {
-  background-color: #3182CE;
-  color: #FFF;
-  padding: 1rem 1.5rem;
-  border-radius: 9999px;
-  text-transform: uppercase;
-  font-size: 1.125rem;
-  text-align: center;
-  display: inline-block;
-}
-
-.footer {
-  background-color: #FFFFFF;
-  text-align: center;
-  color: #A0AEC0;
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
